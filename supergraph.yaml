@@ -1,0 +1,6 @@
+federation_version: 2
+subgraphs:
+  users:
+    routing_url: http://localhost:4001/
+    schema:
+      file: services\users\schema\typedefs.graphql
